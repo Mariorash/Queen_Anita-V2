@@ -12,7 +12,7 @@ global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1sm
   ";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.DATABASE_URL = process.env.DATABASE_URL || "";
+global.DATABASE_URL = process.env.DATABASE_URL || "postgresql://queenania_m845_user:ZJIX8hzBkAZns2w4vuhIwD4WedkFDE0I@dpg-cqpdnorv2p9s73cagpc0-a.oregon-postgres.render.com/queenania_m845";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/Queen_Anita-V2";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
